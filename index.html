@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@300&display=swap" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <title>Encriptador</title>
+    
+</head>
+<body>
+    <header>
+        <img class="logo" src="Imagenes/logo.png" alt="Logo de Encriptador">
+        <h1 class="titulo">Codificador</h1>
+        <div class="wave" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,50.10 C168.35,111.02 287.43,-55.24 500.00,50.10 L508.08,154.82 L-4.32,156.81 Z" style="stroke: none; fill: #5f89bf;"></path></svg></div>
+    </header>
+    <main>
+        <section>
+            <textarea class="text-area" cols="30" rows="10" placeholder="Ingrese el texto aquí"></textarea>
+        </section>
+        <section class="botones">
+            <h5>¡Solo letras minúsculas, sin acentos!</h5>
+            <button class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button>
+            <button class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+            <button class="copiar" onclick="copiar()">Copiar</button>
+        </section>     
+        <section>
+            <textarea class="mensaje" cols="30" rows="10"></textarea>
+        </section>
+    </main>
+<script src="script.js"></script>
+</body>
+<footer>
+    <div class="waverfo" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,50.10 C150.00,150.33 271.29,-50.10 500.00,50.10 L500.00,-0.00 L0.00,-0.00 Z" style="stroke: none; fill: #5f89bf;"></path></svg></div>
+
+    <div class="redes-sociales">
+        <ul>
+            <li class="facebook"><a href="https://www.facebook.com/santyrakin/"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a></li>
+            <li class="instagram"><a href="https://www.instagram.com/goa.95/"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a></li>
+            <li class="whatsapp"><a href="https://api.whatsapp.com/send?phone=%2B573145228225&text=Reciba+un+cordial+saludo%2C%0AMi+nombre+es+Santiago%0ADime%2C+%C2%BFen+qu%C3%A9+puedo+colaborar%3F"><i class="fa fa-whatsapp fa-2x" aria-hidden="true"></i></a></li>
+            <li class="linkedin"><a href="https://www.linkedin.com/in/santiagojaramillop/"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a></li>
+        </ul>
+    </div>
+    <h6 class="mi-nombre">Santiago Jaramillo</h6>
+</footer>
+</html>

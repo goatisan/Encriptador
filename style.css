@@ -1,0 +1,276 @@
+*{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+}
+
+
+header{
+    background: #F0C27B;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4B1248, #F0C27B);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4B1248, #F0C27B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.waver{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.titulo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 70px;
+    font-weight: 800;
+    position: absolute;
+    top: 30px;
+    left: 35%;
+    color: rgb(8, 8, 8);
+    
+}
+
+.logo{
+    padding-top: 50px;
+    margin-left: 120px;
+    width: 10%;
+}
+
+main{
+    display: flex;
+    background: #5f89bf;
+    justify-content: space-evenly;
+}
+
+.text-area{
+    background: #D3CCE3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #E9E4F0, #D3CCE3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 24px;
+    color: brown;
+    text-transform: lowercase;
+    padding-left: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+::placeholder { color:brown; }
+  .text-area:focus {
+        outline: none;
+    }
+
+.mensaje{
+    background: #D3CCE3; 
+    background-image: url("Imagenes/mu.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    border-radius: 24px;
+    color: brown;
+    margin-top: 20px;
+    padding-left: 20px;
+    text-align: center;
+}
+
+.botones{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.btn-desencriptar {
+    background: #ADA996;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border: 1px solid #000000;
+    border-radius: 24px;
+    color: rgb(222, 24, 24);
+    height: 50px;
+    width: 300px;
+}
+
+.btn-desencriptar:hover{
+    border-color: aqua;
+    font-family: monospace;
+    color: rgb(0, 0, 0);
+}
+
+.btn-desencriptar:active{
+    border-color: #000000;
+}
+
+.btn-encriptar {
+    background: #ADA996;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border: 1px solid #000000;
+    border-radius: 24px;
+    color: rgb(237, 35, 35);
+    height: 50px;
+    width: 300px;
+}
+
+.btn-encriptar:hover{
+    border-color: aqua;
+    font-family: monospace;
+    color: rgb(0, 0, 0);
+}
+
+.btn-encriptar:active{
+    border-color: #000000;
+}
+
+.copiar{
+    background: #ADA996;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border: 1px solid #000000;
+    border-radius: 24px;
+    color: rgb(226, 17, 17);
+    cursor: pointer;
+    height: 50px;
+    width: 300px;
+}
+
+.copiar:hover{
+    border-color: aqua;
+    font-family: monospace;
+    color: rgb(0, 0, 0);
+}
+
+.copiar:active{
+    border-color: #000000;
+}
+
+.informacion    {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    text-align: center;
+}
+
+footer {
+    background: #F0C27B;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4B1248, #F0C27B);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4B1248, #F0C27B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.waverfo{
+    width: 100%;
+}
+
+.redes-sociales{
+    top: 50%;
+    left: 54%;
+    display: inline-block;
+    position: relative;
+    transform: translate(-50%, -50%);
+    width: 550px;
+}
+
+.redes-sociales ul{
+    list-style: none;
+}
+
+.redes-sociales ul li{
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    margin: 0 10px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 5px solid white;
+    float: left;
+    transition: all 0.6s ease;
+}
+ 
+.redes-sociales ul li .fa{
+    color: #d8e2dc;
+    margin-top: 10px;
+    transition: all 0.6s ease;
+}
+
+.redes-sociales ul li:hover.facebook{
+    border: 5px solid #3b5998;
+    box-shadow: 0 0 20px #3b5998;
+    transition: all 0.6s ease;
+  }
+
+.redes-sociales ul li:hover .fa-facebook{
+    color: #3b5998;
+    text-shadow: 0 0 20px #3b5998;
+    transition: all 0.6s ease;
+}
+
+.redes-sociales ul li:hover.instagram{
+    border: 5px solid #bc2a8d;
+    box-shadow: 0 0 20px #bc2a8d;
+    transition: all 0.6s ease;
+}
+
+.redes-sociales ul li:hover .fa-instagram{
+    color: #bc2a8d;
+    text-shadow: 0 0 20px #bc2a8d;
+    transition: all 0.6s ease;
+}
+
+.redes-sociales ul li:hover.whatsapp{
+    border: 5px solid #4dc247;
+    box-shadow: 0 0 20px #4dc247;
+    transition: all 0.6s ease;
+}
+
+.redes-sociales ul li:hover .fa-whatsapp{
+    color: #4dc247;
+    text-shadow: 0 0 20px #4dc247;
+    transition: all 0.6s ease;
+}
+
+.redes-sociales ul li:hover.linkedin{
+    border: 5px solid #0e76a8;
+    box-shadow: 0 0 20px #0e76a8;
+    transition: all 0.6s ease;
+}
+
+.redes-sociales ul li:hover .fa-linkedin{
+    color: #0e76a8;
+    text-shadow: 0 0 20px #0e76a8;
+    transition: all 0.6s ease;
+}
+
+@media screen and (max-width: 640px){
+    .redes-sociales{
+        width: 350px;
+    }
+    .redes-sociales ul li{
+        margin-top: 10px;
+    }
+    .redes-sociales ul li.whatsapp{
+        margin-left: 60px;
+    }
+}
+
+@media screen and (max-width: 340px){
+    .redes-sociales{
+        width: 150px;
+    }
+    .redes-sociales ul li{
+        margin-top: 15px;
+    }
+    .redes-sociales ul li.whatsapp{
+        margin-left: 10px;
+    }
+}
+
+.mi-nombre{
+    text-align: center;
+    color: #DBDBDB;
+    font-size: medium;
+    font-family: monospace;
+}
+
+.mi-nombre:hover{
+    color: #000000;
+    transform: all 0.6s ease;
+}
+
+
